@@ -1,0 +1,48 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+input {
+	font-weight: 400;
+}
+span {
+	font-style: italic;
+	padding-bottom: 5px;
+}
+ul {
+	list-style: none;
+}
+li {
+	padding-top: 5px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+ul.info li {
+	font-weight: 400;
+	font-style: italic;
+}
+ul.info span {
+	font-weight: 500;
+	font-style: initial;
+}
+.input__wrap input {
+	width: 70%;
+	border: none;
+	padding: 10px 0;
+	outline: none;
+	box-shadow: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+.input__wrap::before {
+	content: 'entered command >';
+	position: relative;
+	padding-right: 5px;
+}
+.input__wrap-main::before {
+	content: 'enter command >';
+	font-weight: 700;
+}
+.input__wrap-main input {
+	font-weight: bold;
+}
